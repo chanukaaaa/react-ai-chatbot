@@ -1,0 +1,80 @@
+.upperSide{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid white;
+    height: 350px;
+}
+
+.upperSideTop img{
+    margin-left: 30px;
+    margin-bottom: -50px;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    height: 200px; 
+    width: 200px; 
+}
+
+.addBtn{
+    height: 32px;
+    padding-right: 16px;
+}
+
+.midBtn{
+    background: #012235;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    border-radius: 0.5rem;
+}
+
+.query{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: white;
+    padding: 1.5rem;
+    width: 25rem;
+    margin: 1rem auto;
+    margin-bottom: -5px;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(98, 98, 98, 1);
+}
+
+.query img{
+    margin-right: 2rem;
+    object-fit: cover;
+    height: 1.75rem;
+}
+
+.lowerSide{
+    padding: 2rem;
+}
+
+.listItems{
+    margin: 0.75rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.listItemsImg{
+    margin: 1rem;
+    padding-right: 1rem;
+}
+
+.listItems:nth-child(1) .listItemsImg{
+    margin-right: 0.5rem;
+}
+
+.listItems:nth-child(3) .listItemsImg{
+    margin-right: 0.75rem;
+}

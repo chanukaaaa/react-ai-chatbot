@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.App{
+    min-height: 100vh;
+    display: flex;
+}
+
+.SideBar{
+    flex: 3;
+    border-right: 1px solid white;
+}
+
+.Main{
+    flex: 9;
+}
